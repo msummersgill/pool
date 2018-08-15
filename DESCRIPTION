@@ -16,21 +16,14 @@ Depends:
     methods
 Imports:
     DBI,
-    R6,
-    dplyr,
-    dbplyr,
-    later
+    R6
 Suggests:
-    testthat,
-    tibble,
     RSQLite,
     RMySQL
 URL: https://github.com/rstudio/pool
 BugReports: https://github.com/rstudio/pool/issues
 LazyData: TRUE
 Collate:
-    'utils.R'
-    'scheduler.R'
     'pool.R'
     'pool-methods.R'
     'object.R'
@@ -44,5 +37,5 @@ Collate:
     'DBI-object-deprecated.R'
     'DBI-object.R'
     'DBI-pool.R'
-    'dbplyr.R'
-RoxygenNote: 6.0.1
+    'utils.R'
+RoxygenNote: 6.1.0
