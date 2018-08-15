@@ -1,5 +1,3 @@
-#' @include scheduler.R
-NULL
 
 #' @export
 Pool <- R6::R6Class("Pool",
